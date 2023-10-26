@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setthem_light_menu_item"
+        android:orderInCategory="100"
+        android:title="Темная тема" />
+    <item
+        android:id="@+id/about_menu_item"
+        android:title="О программе" />
+    <item
+        android:id="@+id/setthem_dark_menu_item"
+        android:orderInCategory="100"
+        android:title="Светлая тема" />
+
+    <item
+        android:id="@+id/theme_switch"
+        android:title=""
+        android:icon="@drawable/iconoff"
+
+        app:showAsAction="always" />
+</androidx.constraintlayout.widget.ConstraintLayout>
